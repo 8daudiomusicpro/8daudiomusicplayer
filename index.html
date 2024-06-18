@@ -190,12 +190,13 @@ footer {
         padding: 1em;
         position: fixed;
         top: 100px;
-        right: 10px;
+        right: 5px;
         display: flex;
         flex-direction: column;
         gap: 1em;
         transition: transform 0.3s ease-in-out;
         transform: translateX(100%);
+        
       }
       .sidebar.open {
         transform: translateX(0);
@@ -213,6 +214,7 @@ footer {
         border-radius: 5px;
         box-shadow: 0.1px 0.1px 14px 0.1px #101010;
         cursor: pointer;
+        
       }
       .recommendation img {
         width: 50px;
@@ -453,6 +455,50 @@ footer {
             </audio>
           </div>
         </div>
+        <div class="audio">
+          <img src="https://c.saavncdn.com/600/Barsaat-Ki-Dhun-Hindi-2021-20210720121009-500x500.jpg" alt="">
+          <h2>Barsaat Ki Dhun</h2>
+          <p></p>
+          <div class="music-player">
+            <audio controls>
+              <source src="Barsaat Ki Dhun Lyrical  Rochak K Ft. Jubin N  Gurmeet C, Karishma S Rashmi V Ashish PBhushan K.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+        <div class="audio">
+          <img src="https://c.saavncdn.com/923/Mehendi-Wale-Haath-feat-Sanjana-Sanghi--Hindi-2021-20210114051001-500x500.jpg" alt="">
+          <h2>Mehendi Wale Haath </h2>
+          <p></p>
+          <div class="music-player">
+            <audio controls>
+              <source src="Mehendi Wale Haath (AUDIO) Guru Randhawa Sanjana SanghiSayeed Sachet-Parampara Arvindr Bhushan K.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+        <div class="audio">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_K32tHeb17mbm6R2kKdWILxf9R7tcaM7YyA&s" alt="">
+          <h2>Bedardi Se Pyaar Ka</h2>
+          <p></p>
+          <div class="music-player">
+            <audio controls>
+              <source src="Bedardi Se Pyaar Ka (Lyrical) Jubin Nautiyal  Meet Bros  Manoj Muntashir  Ashish P  Bhushan K.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+        <div class="audio">
+          <img src="https://c.saavncdn.com/911/Bewafa-Tera-Muskurana-Hindi-2021-20210809120958-500x500.jpg" alt="">
+          <h2>Bewafa Tera Muskurana</h2>
+          <p></p>
+          <div class="music-player">
+            <audio controls>
+              <source src="Bewafa Tera Muskurana (Lyrical) Meet Bros  Jubin Nautiyal Himansh K,Akanksha PRashmi VBhushan K.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
       </div>
     </div>
      <!-- Sidebar toggle icon -->
@@ -475,14 +521,22 @@ footer {
           <p>Jubin Nautiyal</p>
         </div>
       </div>
-      <div class="recommendation" data-audio="https://8daudiomusicpro.github.io/8daudiomusicplayer/8d.mp3.mp3">
-        <img src="https://c.saavncdn.com/248/Pehle-Bhi-Main-Future-Bass-Hindi-2024-20240223181016-500x500.jpg" alt="Song 3" />
+      <div class="recommendation" data-audio="Mehendi Wale Haath (AUDIO) Guru Randhawa Sanjana SanghiSayeed Sachet-Parampara Arvindr Bhushan K.mp3">
+        <img src="https://c.saavncdn.com/923/Mehendi-Wale-Haath-feat-Sanjana-Sanghi--Hindi-2021-20210114051001-500x500.jpg" alt="Song 3" />
         <div class="info">
-          <h4>Pehle Bhi Main</h4>
-          <p>Vishal Mishra</p>
+          <h4>Mehendi Wale Haath</h4>
+          <p>Guru Randhawa</p>
         </div>
       </div>
+    <div class="recommendation" data-audio="Barsaat Ki Dhun Lyrical  Rochak K Ft. Jubin N  Gurmeet C, Karishma S Rashmi V Ashish PBhushan K.mp3">
+      <img src="https://c.saavncdn.com/600/Barsaat-Ki-Dhun-Hindi-2021-20210720121009-500x500.jpg" alt="Song 3" />
+      <div class="info">
+        <h4>Barsaat Ki Dhun</h4>
+        <p>Jubin Nautiyal</p>
+      </div>
     </div>
+  </div>
+  
     <audio id="audio-player" class="hidden-audio">
       <source id="audio-source" src="" type="audio/mp3" />
       Your browser does not support the audio element.
